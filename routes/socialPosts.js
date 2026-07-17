@@ -5,3 +5,5 @@ const authMiddleware=require("../middleware/authmiddleware")
 const socialController=require("../controllers/socialPostsController")
 
 router.post("/",authMiddleware,socialController.socialCreatePosts);
+
+module.exports=router
