@@ -69,11 +69,11 @@ Create a `.env` file
 PORT=5000
 
 DB_HOST=localhost
-DB_USER=root
+DB_USER=
 DB_PASSWORD=your_password
-DB_NAME=blog_db
+DB_NAME=
 
-JWT_SECRET=your_secret_key
+JWT_SECRET=
 ```
 
 Start the server
